@@ -1,0 +1,44 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="demo"></p>
+</body>
+<script>
+    // let day=new Date().getDay();
+    let day=3;
+    switch(day)
+    {
+        case 0:
+            day="sunday";
+            braek;
+        case 1:
+            day="monday";
+            break;
+        case 2:
+            day="tuesday";  
+            break;
+        case 3:
+            day="wenesday";
+            break; 
+        case 4:
+            day="Thursday";
+            break;  
+        case 5:
+            day="friday";
+            break; 
+        case 6:
+            day="saturday";
+            break;   
+        default:
+            day= "looking forward to the weekend"               
+    }
+    document.getElementById("demo").innerHTML="today is " +day;
+      
+
+</script>
+</html>
